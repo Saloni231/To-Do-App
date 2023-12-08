@@ -1,0 +1,17 @@
+.status {
+  margin: 25px;
+
+  .title {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(95, 93, 93);
+    padding-bottom: 20px;
+  }
+
+  .statusBox {
+    width: 500px;
+    background-color: azure;
+    border: 1px solid rgb(18, 178, 178);
+  }
+}

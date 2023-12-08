@@ -1,0 +1,26 @@
+.close-icon {
+  position: fixed;
+  left: 60%;
+  margin: 7% auto;
+  z-index: 20;
+  animation-name: close;
+  animation-duration: 1.5s;
+}
+
+@keyframes close {
+  0% {
+    margin-top: 15%;
+    z-index: -10;
+    opacity: 0;
+  }
+  50% {
+    margin-top: 12%;
+    z-index: 0;
+    opacity: 0.1;
+  }
+  100% {
+    margin-top: 7%;
+    z-index: 20;
+    opacity: 1;
+  }
+}
