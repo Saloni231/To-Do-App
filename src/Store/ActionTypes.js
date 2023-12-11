@@ -11,6 +11,4 @@ export const CLOSE_MODAL = "CLOSE_MODAL";
 export const OPEN_MODAL_EDIT = "OPEN_MODAL_EDIT";
 
 /* Filter Actions */
-export const COMPLETED = "COMPLETED";
-export const INCOMPLETE = "INCOMPLETE";
-export const ALL = "ALL";
+export const FILTER = "FILTER";
